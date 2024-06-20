@@ -1,0 +1,42 @@
+body {  font-family: Arial, sans-serif;
+        display: flex; 
+        flex-direction: column;
+        height: 100vh;
+        margin: 0;
+        background-color: black;
+        color: #000000;}
+
+.logo  {text-align: center; margin-top: 2em;}
+
+#counter-container {display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    margin-bottom: 20px;
+                    margin-top: 10em;}
+    
+#counter-value {font-size: 2rem;
+                margin-bottom: 20px;}
+
+#buttons-container {display: flex;
+                    align-items: center;
+                    margin-bottom: 40px;}
+
+button {font-size: 1.5rem;
+        padding: 10px 20px;
+        margin: 0 10px;
+        cursor: pointer;
+        background-color: blue;
+        color: white;
+        border: none;
+        box-shadow: 0 0 10px white;
+        transition: transform 0.1s ease-in-out;}
+
+button:active { transform: scale(1.1);}
+
+a { font-size: 1rem;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.1s ease-in-out;}
+    
+a:hover {color: red;}
